@@ -2,10 +2,10 @@
 /**
  * main - main function
  *
- * Return: success 0
+ * Return: 0 when successful
  */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	Return (0);
+	return (0);
 }
