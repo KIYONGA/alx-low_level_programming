@@ -2,21 +2,19 @@
 #include <ctype.h>
 
 /**
- * main - main function 
+ *main - Entry point
  *
- * Return: Always 0 (success)
+ *Return: Always 0 (success)
  */
 
 int main(void)
 {
-	int lowerCase = 'a';
-
-	while (lowerCase <= 'z')
-
-	{
-		putchar(lowerCase);
-		lowerCase += 1;
-	}
-	putchar ('\n');
-	return (0);
+int lowerCase = 'a';
+while (lowerCase <= 'z')
+{
+putchar(lowerCase);
+lowerCase += 1;
+}
+putchar('\n');
+return (0);
 }
